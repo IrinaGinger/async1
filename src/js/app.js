@@ -1,7 +1,8 @@
 import GameSavingLoader from './classes/gamesavingloader'
 
 export default function savingLoader() {
-  GameSavingLoader.load().then(saving => {
+  return GameSavingLoader.load()
+  .then(saving => {
     return saving;
   }, 
   error => {
