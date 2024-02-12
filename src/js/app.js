@@ -1,4 +1,4 @@
-import GameSavingLoader from './classes/gamesavingloader'
+import GameSavingLoader from './classes/gamesaving'
 
 export default function savingLoader() {
   return GameSavingLoader.load()
